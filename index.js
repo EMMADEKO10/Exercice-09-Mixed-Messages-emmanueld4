@@ -15,5 +15,8 @@ function genererMessageAleatoire() {
       "Les prépositions en français indiquent la relation entre deux mots dans une phrase."
 
     ];
+    //Generer le messqge
+
   }
+  const messageAleatoire = messages[Math.floor(Math.random() * messages.length)];
   genererMessageAleatoire();
